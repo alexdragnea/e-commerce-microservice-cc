@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1e96f40-1f0f-4a52-85c0-edba08cd84df" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/delete_dep.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/order-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="alexdragnea &lt;alexdg722@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;k8cluster&quot;,
+      &quot;originalNamespace&quot;: &quot;default&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="k8cluster" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YTtWcVwy7bbkJnXDm3q9V9YU5G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexdg/Desktop/UPB/Cloud Computing/e-commerce-microservices/notification-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notification-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/notification-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/inventory-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/order-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/order-service/src/main/java/acs/upb/orderservice/exception" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="acs.upb.inventoryservice.exception" />
+      <recent name="acs.upb.userservice.service" />
+      <recent name="acs.upb.inventoryservice.client" />
+      <recent name="acs.upb.inventoryservice.dto" />
+      <recent name="acs.upb.orderservice.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.inventoryservice.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoringServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="monitoring-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.monitoringservice.MonitoringServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="acs.upb.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1e96f40-1f0f-4a52-85c0-edba08cd84df" name="Changes" comment="" />
+      <created>1700561429395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700561429395</updated>
+      <workItem from="1700561430408" duration="421000" />
+      <workItem from="1700757640547" duration="1332000" />
+      <workItem from="1700758981553" duration="94000" />
+      <workItem from="1700759082113" duration="2466000" />
+      <workItem from="1700761758460" duration="640000" />
+      <workItem from="1700762407405" duration="1225000" />
+      <workItem from="1701253837042" duration="146000" />
+      <workItem from="1701254448210" duration="101000" />
+      <workItem from="1701255225709" duration="2338000" />
+      <workItem from="1701709534233" duration="10886000" />
+      <workItem from="1701769592368" duration="13665000" />
+      <workItem from="1701784303836" duration="225000" />
+      <workItem from="1701784570391" duration="620000" />
+      <workItem from="1701785480335" duration="17209000" />
+      <workItem from="1701844440527" duration="8144000" />
+      <workItem from="1701870166057" duration="2237000" />
+      <workItem from="1701935513863" duration="17916000" />
+      <workItem from="1701976743025" duration="1087000" />
+      <workItem from="1702034321563" duration="822000" />
+      <workItem from="1702044618283" duration="2525000" />
+      <workItem from="1702047393114" duration="5938000" />
+      <workItem from="1702117758673" duration="5445000" />
+      <workItem from="1702143056536" duration="5445000" />
+      <workItem from="1702153938625" duration="775000" />
+      <workItem from="1702154865042" duration="462000" />
+      <workItem from="1702201939813" duration="7033000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701870465949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701870465949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701870648529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701870648529</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701870849713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701870849713</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871161318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871161318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871304575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871304575</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871396085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871396085</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871563343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871563343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871740789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871740789</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871809872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871809872</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701871975443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701871975443</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add build-and-push.yml workflow">
+      <option name="closed" value="true" />
+      <created>1701945522797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701945522797</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add terraform">
+      <option name="closed" value="true" />
+      <created>1701954871501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701954871501</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add terraform">
+      <option name="closed" value="true" />
+      <created>1701954951008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701954951008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add terraform">
+      <option name="closed" value="true" />
+      <created>1701956609274</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701956609274</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix">
+      <option name="closed" value="true" />
+      <created>1702148573827</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702148573827</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add build-and-push.yml workflow" />
+    <MESSAGE value="Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow&#10;&#10;Add build-and-push.yml workflow" />
+    <MESSAGE value="Add terraform" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/dto/InventoryMapper.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/dto/InventoryMapper.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/dto/InventoryMapper.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/dto/InventoryMapper.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/dto/InventoryMapper.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/inventory-service/src/main/java/acs/upb/inventoryservice/controller/InventoryController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/acs/upb/orderservice/controller/OrderController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/acs/upb/orderservice/service/OrderService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/acs/upb/userservice/service/UserService.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/notification-service/src/main/java/acs/upb/notificationservice/controller/NotificationController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/acs/upb/userservice/controller/UserController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/acs/upb/userservice/controller/UserController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/acs/upb/orderservice/exception/FeignExceptionHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/acs/upb/orderservice/client/UserClient.java</url>
+          <line>12</line>
+          <properties class="acs.upb.orderservice.client.UserClient" method="getLoggedInUserInfo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="acs.upb.orderservice.model.Order" memberName="updatedDate" />
+        <PinnedItemInfo parentTag="acs.upb.orderservice.model.Order" memberName="createdDate" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

@@ -1,0 +1,100 @@
+version: '3.7'
+services:
+
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=compose-postgres
+      - POSTGRES_PASSWORD=compose-postgres
+      - POSTGRES_DB=e-commerce
+    volumes:
+      - ./dataset:/docker-entrypoint-initdb.d
+
+
+  discovery-service:
+    build: ./discovery-service
+    ports:
+      - "8761:8761"
+    environment:
+      - server.port=8761
+
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8888:8888"
+    depends_on:
+      - discovery-service
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+
+
+  # user-service
+  user-service:
+    build: ./user-service
+    ports:
+      - "8090:8090"
+    depends_on:
+      - db
+      - discovery-service
+    environment:
+      - server.port=8090
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/e-commerce
+      - SPRING_DATASOURCE_USERNAME=compose-postgres
+      - SPRING_DATASOURCE_PASSWORD=compose-postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  # order-service
+  order-service:
+    build: ./order-service
+    ports:
+      - "8092:8092"
+    depends_on:
+      - db
+      - discovery-service
+    environment:
+      - server.port=8092
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/e-commerce
+      - SPRING_DATASOURCE_USERNAME=compose-postgres
+      - SPRING_DATASOURCE_PASSWORD=compose-postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+    # order-service
+  inventory-service:
+    build: ./inventory-service
+    ports:
+      - "8091:8091"
+    depends_on:
+      - db
+      - discovery-service
+    environment:
+      - server.port=8091
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/e-commerce
+      - SPRING_DATASOURCE_USERNAME=compose-postgres
+      - SPRING_DATASOURCE_PASSWORD=compose-postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  notification-service:
+    build: ./notification-service
+    ports:
+      - "8093:8093"
+    depends_on:
+      - discovery-service
+    environment:
+      - server.port=8091
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+
+  monitoring-service:
+    build: ./monitoring-service
+    ports:
+      - "8765:8765"
+    depends_on:
+      - discovery-service
+    environment:
+      - server.port=8765
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/

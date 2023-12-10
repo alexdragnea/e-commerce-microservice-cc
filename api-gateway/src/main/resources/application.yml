@@ -1,0 +1,46 @@
+server:
+  port: 8888
+  error:
+    include-message: always
+
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: inventory-service
+          uri: lb://inventory-service
+          predicates:
+            - Path=/v1/inventory/**
+
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/v1/orders/**
+
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/v1/user/**
+
+      discovery:
+        locator:
+          enabled: true
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://discovery-service:8761/eureka}
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+
+
+logging:
+  level:
+    com.netflix.discovery: DEBUG
