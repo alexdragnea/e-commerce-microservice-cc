@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monitoring-service
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: monitoring-service
+  template:
+    metadata:
+      labels:
+        app: monitoring-service
+    spec:
+      containers:
+      - name: monitoring-service
+        image: alexdragnea/cc-monitoring-service:latest
+        resources:
+          limits:
+            memory: 768Mi
+            cpu: 512m
+          requests:
+            cpu: 256m
+            memory: 512Mi
+        ports:
+        - containerPort: 8765
+        livenessProbe:
+          httpGet:
+            path: /actuator/health/liveness
+            port: 8765
+          initialDelaySeconds: 100
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /actuator/health/readiness
+            port: 8765
+          initialDelaySeconds: 100
+          periodSeconds: 5
+
+
+

@@ -1,0 +1,12 @@
+primary:
+  persistence:
+    existingClaim: postgres-pvc
+volumePermissions:
+  enabled: true
+global:
+  postgresql:
+    auth:
+      postgresPassword: postgres
+      username: postgres
+      password: postgres
+      database: e-commerce

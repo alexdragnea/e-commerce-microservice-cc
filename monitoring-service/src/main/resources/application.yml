@@ -1,0 +1,25 @@
+server:
+  port: 8765
+
+
+spring:
+  application:
+    name: monitoring-service
+  boot:
+    admin:
+      monitor:
+        default-timeout: 6000000
+        status-interval: 1500000
+        status-lifetime: 1500000
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://discovery-service:8761/eureka}
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+
+
